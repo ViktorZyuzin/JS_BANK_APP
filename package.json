@@ -1,0 +1,10 @@
+{
+  "name": "atm-cli-app",
+  "version": "1.0.0",
+  "description": "CLI application for ATM and Bank operations",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {}
+}
