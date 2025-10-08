@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  atm-app:
+    build: .
+    container_name: atm-cli-app
+    stdin_open: true
+    tty: true
+    volumes:
+      - ./database.db:/app/database.db

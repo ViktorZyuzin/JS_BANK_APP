@@ -1,10 +1,14 @@
 {
   "name": "atm-cli-app",
   "version": "1.0.0",
-  "description": "CLI application for ATM and Bank operations",
-  "main": "src/app.js",
+  "description": "CLI приложение банкомата",
+  "main": "src/index.js",
   "scripts": {
-    "start": "node src/app.js"
+    "start": "node src/index.js",
+    "dev": "node src/index.js"
   },
-  "dependencies": {}
+  "dependencies": {
+    "sqlite3": "^5.1.6",
+    "readline-sync": "^1.4.10"
+  }
 }
